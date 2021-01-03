@@ -1,11 +1,32 @@
 .container {
+  height: 100%;
   .header {
-    background-color: #ccc;
+    background-color: #373D41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: #FFF;
+    font-size: 20px;
+    > div {
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      span {
+        margin-left: 15px;
+      }
+    }
   }
   .aside {
-    background-color: darkgreen;
+    background-color: #333744;
   }
   .main {
-    background-color: darkorange;
+    background-color: #EAEDF1;
+  }
+  .main_container {
+    height: 100%;
   }
 }
